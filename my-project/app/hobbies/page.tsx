@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Camera, Gamepad2, Music, Dumbbell, Plane, BookOpen } from "lucide-react";
+import { Gamepad2, Music, Utensils, Globe } from "lucide-react";
 
 const hobbies = [
   {
@@ -13,14 +13,14 @@ const hobbies = [
     description: "Listening to music and exploring new genres.",
   },
   {
-    title: "Fitness",
-    icon: Dumbbell,
-    description: "Staying active with regular workouts.",
+    title: "Cooking",
+    icon: Utensils,
+    description: "Trying simple and learning to cook new dishes.",
   },
   {
-    title: "Reading",
-    icon: BookOpen,
-    description: "Reading technology blogs and novels.",
+    title: "Exploring",
+    icon: Globe,
+    description: "Exploring new places and discovering new things.",
   },
 ];
 

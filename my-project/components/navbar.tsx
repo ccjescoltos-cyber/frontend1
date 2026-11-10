@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { buttonVariants } from "@/components/ui/button";
 import { Code2 } from "lucide-react";
 
 const navItems = [
@@ -20,7 +21,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4 mx-auto">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           <Code2 className="h-6 w-6 text-primary" />
-          <span>DevPortfolio</span>
+          <span>CJ's Portfolio</span>
         </Link>
         <nav className="flex items-center gap-1 sm:gap-2">
           {navItems.map((item) => {
@@ -29,11 +30,10 @@ export function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`inline-flex h-9 items-center justify-center rounded-md px-3 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 ${
-                  isActive
-                    ? "bg-primary text-primary-foreground shadow hover:bg-primary/90"
-                    : "hover:bg-accent hover:text-accent-foreground"
-                }`}
+                className={buttonVariants({
+                  variant: isActive ? "default" : "ghost",
+                  size: "sm",
+                })}
               >
                 {item.name}
               </Link>

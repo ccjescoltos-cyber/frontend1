@@ -21,7 +21,7 @@ export default function Contact() {
               <Mail className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Email</p>
-                <p className="text-sm font-semibold">your-email@example.com</p>
+                <p className="text-sm font-semibold">ccjescoltos@gbox.ncf.edu.ph</p>
               </div>
             </CardContent>
           </Card>
@@ -31,7 +31,7 @@ export default function Contact() {
               <Phone className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Phone</p>
-                <p className="text-sm font-semibold">+63 900 000 0000</p>
+                <p className="text-sm font-semibold">+63 993 613 7577</p>
               </div>
             </CardContent>
           </Card>
@@ -41,7 +41,7 @@ export default function Contact() {
               <MapPin className="h-5 w-5 text-primary" />
               <div>
                 <p className="text-xs text-muted-foreground font-medium">Location</p>
-                <p className="text-sm font-semibold">Your City, Philippines</p>
+                <p className="text-sm font-semibold">Naga City, Philippines</p>
               </div>
             </CardContent>
           </Card>

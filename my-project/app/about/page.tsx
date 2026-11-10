@@ -28,7 +28,11 @@ export default function About() {
         </CardHeader>
         <CardContent className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            Write a short introduction about yourself here, your background, and your goal as a developer or student.
+             My name is CJ Cris Jayson A. Escoltos. I am a BSIT student at Naga College Foundation. 
+             I am a simple person who enjoys learning new things, especially about computers and technology. 
+             I may still have a lot to learn, but I always try my best to improve my knowledge and skills. 
+             My goal is to finish my studies, become successful someday, find a good job, and help my family. 
+             I believe that through hard work and patience, I can achieve my dreams.
           </p>
         </CardContent>
       </Card>
