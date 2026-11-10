@@ -4,7 +4,7 @@ import { GraduationCap, Award } from "lucide-react";
 const educationList = [
   {
     degree: "BS in Information Technology",
-    institution: "Naga College Fundation / College of Computer Studies",
+    institution: "Naga College Foundation / College of Computer Studies",
     period: "2026 - Present",
     description: "Currently studying Bachelor of Science Information Technology at Naga College Foundation. I am learning about programming, computer systems, databases, and other technologies to improve my knowledge and skills in the IT field.",
     achievements: ["Acheiver", "Successfully graduated from Senior High School", "Currently pursuing a college degree in Information Technology"],
